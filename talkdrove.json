@@ -1,0 +1,41 @@
+{
+    "bot-name": "Techsync",
+    "description": "a whatsapp bot created by mvelase technology",
+    "logo": "https://files.catbox.moe/sdv3qh.png",
+    "keywords": ["bot"],
+    "documentation-link": "https://techsync-session-id8.onrender.com",
+    "owner-verification":"mvelaseaitechnology@gmail.com",
+  
+    "env": {
+    "SESSION_ID": {
+      "description": "Put your SESSION_ID here. Make sure it starts with Techsync-MD",
+      "value": "",
+      "required": true
+    },
+    "PREFIX": {
+      "description": "Techsync command prefix, (e.g, . , !, & , @ etc)",
+      "value": ".",
+      "required": true
+    },
+    "MODE": {
+      "description": "Techsync mode can be public, private, inbox, or groups (in lowercase) (e.g., public)",
+      "value": "private",
+      "required": true    
+    },
+    "BOT_NAME": {
+      "description": "write your bot name here (for example Techsync).",
+      "required": true,
+      "value": "Techsync"
+    },
+    "AUTO_TYPING": {
+      "description": "make it true if you want auto typing on your Techsync.",
+      "required": false,
+      "value": "false"
+    }, 
+    "OWNER_NUMBER": {
+      "description": "paste your whatsapp number you used to link the device",
+      "required": false,
+      "value": "263771912275"
+    }
+  }
+}
